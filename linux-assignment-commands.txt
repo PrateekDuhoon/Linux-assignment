@@ -1,0 +1,60 @@
+Linux Assignment Commands: 
+Step 1: Open a terminal on your machine.
+Since I have used gitbash I opened git bash on my system.
+
+Step 2: Create a new directory called "linux-assignment"
+To do this we use the make directory command i.e. mkdir ~/linux-assignment
+This creates a new directory called linux-assignment
+
+Step 3: Navigate into "linux assignment"
+TO do this we use the change directory command i.e. cd ~/linux-assignment
+
+Step 4: Create a new file called instructions.txt 
+Now we create a file using command line text editor nano. We run the command : nano instructions.txt This creates a instructions.txt 
+file and opens it. Inside we write whatever we want, in this case "hello world!"
+
+Step 5: Display contents of "instructions.txt"
+For this we use cat command followed by file name
+cat instructions.txt
+This gives us content inside of the file.
+
+Step 6: Remane instructions.txt to greetings.txt
+For this we use the command mv to rename
+mv instructions.txt greetings.txt
+
+Step 7: Copy greetings.txt to a new file called salutations.txt
+For this we the cp command which copies content of first file into new file specified by us
+cp greetings.txt salutations.txt
+
+Step 8: Delete greetings.txt
+To delete a file we use the rm command followed by file name
+rm greetings.txt
+
+Step 9: Create a new directory
+For this we use the mkdir command
+mkdir archive
+
+Step 10: Move salutations.txt inside archive
+For this we again use the mv command followed by file name and destination directory
+mv salutations.txt archive/
+
+Step 11: Display current working directory
+For this we use pwd command
+pwd
+
+Step 12: Navigate back to linux-assignment
+For this we use cd command
+cd ~/linux-assignment
+
+Step 13: Create three new empty files 
+For this we use the touch command to create new files
+touch file1.txt file2.txt file3.txt
+
+Step 14: Display list of files in linux-assignment
+For this we use the ls command 
+ls 
+
+Step 15: Create a new text file in linux-assignment and write all the commands (This steP)
+here we create new text file using nano and write down all steps and commands used.
+nano ~/linux-assignment-commands.txt
+
